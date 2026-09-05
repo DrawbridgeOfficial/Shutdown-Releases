@@ -4,9 +4,9 @@ Utilitar Windows pentru controlul alimentării calculatorului: **oprire, reporni
 
 ## 📥 Descărcare
 
-Descarcă direct: **[`ShutdownApp.exe`](./ShutdownApp.exe)** (self-contained, ~69 MB)
+Descarcă ultima versiune din pagina **[Releases](../../releases)**:
 
-> Nu necesită .NET instalat — tot runtime-ul e inclus în exe.
+> **[`ShutdownApp.exe`](../../releases/latest)** — self-contained, ~69 MB, nu necesită .NET instalat.
 
 ## 🖥️ Cerințe
 
@@ -23,7 +23,7 @@ Descarcă direct: **[`ShutdownApp.exe`](./ShutdownApp.exe)** (self-contained, ~6
 
 ## 🚀 Utilizare
 
-1. Descarcă `ShutdownApp.exe`
+1. Descarcă `ShutdownApp.exe` din [Releases](../../releases/latest)
 2. Rulează (dublu-click) — nu necesită instalare
 3. Alege acțiunea sau programează o oprire cu countdown
 
@@ -31,6 +31,6 @@ Descarcă direct: **[`ShutdownApp.exe`](./ShutdownApp.exe)** (self-contained, ~6
 
 Aplicația nu colectează date, nu accesează rețeaua și rulează complet local.
 
----
+## 🛠️ Dezvoltare
 
-*Sursă completă disponibilă în repo-ul privat al proiectului.*
+Codul sursă se găsește în repo-ul privat al proiectului. Fiecare versiune (tag `v*`) declanșează un build automat GitHub Actions care publică exe-ul ca Release.
